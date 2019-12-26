@@ -84,83 +84,83 @@ All URIs are relative to *https://localhost:7008/tmapi/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*LimitsApi* | [**getLimits**](docs\Api/LimitsApi.md#getlimits) | **GET** /limits | Limits information
-*OperationsApi* | [**extractDocumentsEntities**](docs\Api/OperationsApi.md#extractdocumentsentities) | **POST** /operations/entities | Entities extraction
-*OperationsApi* | [**extractDocumentsFacts**](docs\Api/OperationsApi.md#extractdocumentsfacts) | **POST** /operations/facts | Facts extraction
-*OperationsApi* | [**extractDocumentsKeywords**](docs\Api/OperationsApi.md#extractdocumentskeywords) | **POST** /operations/keywords | Keywords extraction
-*OperationsApi* | [**extractDocumentsSentiments**](docs\Api/OperationsApi.md#extractdocumentssentiments) | **POST** /operations/sentiments | Sentiments analysis
-*OperationsApi* | [**extractDocumentsTokens**](docs\Api/OperationsApi.md#extractdocumentstokens) | **POST** /operations/tokens | Text parsing
-*OperationsApi* | [**extractEntities**](docs\Api/OperationsApi.md#extractentities) | **GET** /operations/entities | Entities extraction
-*OperationsApi* | [**extractFacts**](docs\Api/OperationsApi.md#extractfacts) | **GET** /operations/facts | Facts extraction
-*OperationsApi* | [**extractKeywords**](docs\Api/OperationsApi.md#extractkeywords) | **GET** /operations/keywords | Keywords extraction
-*OperationsApi* | [**extractSentiments**](docs\Api/OperationsApi.md#extractsentiments) | **GET** /operations/sentiments | Sentiments analysis
-*OperationsApi* | [**extractTokens**](docs\Api/OperationsApi.md#extracttokens) | **GET** /operations/tokens | Text parsing
-*OperationsApi* | [**getDocumentsLanguages**](docs\Api/OperationsApi.md#getdocumentslanguages) | **POST** /operations/languages | Language detection
-*OperationsApi* | [**getLanguages**](docs\Api/OperationsApi.md#getlanguages) | **GET** /operations/languages | Language detection
-*ServerApi* | [**changePassword**](docs\Api/ServerApi.md#changepassword) | **POST** /change-password | Change password
-*ServerApi* | [**getServerInfo**](docs\Api/ServerApi.md#getserverinfo) | **GET** /server | Server information
-*TasksApi* | [**createTask**](docs\Api/TasksApi.md#createtask) | **POST** /tasks | Create task
-*TasksApi* | [**deleteTasks**](docs\Api/TasksApi.md#deletetasks) | **DELETE** /tasks | Delete tasks
-*TasksApi* | [**getTaskResult**](docs\Api/TasksApi.md#gettaskresult) | **GET** /tasks/result | Task result
-*TasksApi* | [**getTasksInfo**](docs\Api/TasksApi.md#gettasksinfo) | **GET** /tasks | Tasks information
+*LimitsApi* | [**getLimits**](docs/Api/LimitsApi.md#getlimits) | **GET** /limits | Limits information
+*OperationsApi* | [**extractDocumentsEntities**](docs/Api/OperationsApi.md#extractdocumentsentities) | **POST** /operations/entities | Entities extraction
+*OperationsApi* | [**extractDocumentsFacts**](docs/Api/OperationsApi.md#extractdocumentsfacts) | **POST** /operations/facts | Facts extraction
+*OperationsApi* | [**extractDocumentsKeywords**](docs/Api/OperationsApi.md#extractdocumentskeywords) | **POST** /operations/keywords | Keywords extraction
+*OperationsApi* | [**extractDocumentsSentiments**](docs/Api/OperationsApi.md#extractdocumentssentiments) | **POST** /operations/sentiments | Sentiments analysis
+*OperationsApi* | [**extractDocumentsTokens**](docs/Api/OperationsApi.md#extractdocumentstokens) | **POST** /operations/tokens | Text parsing
+*OperationsApi* | [**extractEntities**](docs/Api/OperationsApi.md#extractentities) | **GET** /operations/entities | Entities extraction
+*OperationsApi* | [**extractFacts**](docs/Api/OperationsApi.md#extractfacts) | **GET** /operations/facts | Facts extraction
+*OperationsApi* | [**extractKeywords**](docs/Api/OperationsApi.md#extractkeywords) | **GET** /operations/keywords | Keywords extraction
+*OperationsApi* | [**extractSentiments**](docs/Api/OperationsApi.md#extractsentiments) | **GET** /operations/sentiments | Sentiments analysis
+*OperationsApi* | [**extractTokens**](docs/Api/OperationsApi.md#extracttokens) | **GET** /operations/tokens | Text parsing
+*OperationsApi* | [**getDocumentsLanguages**](docs/Api/OperationsApi.md#getdocumentslanguages) | **POST** /operations/languages | Language detection
+*OperationsApi* | [**getLanguages**](docs/Api/OperationsApi.md#getlanguages) | **GET** /operations/languages | Language detection
+*ServerApi* | [**changePassword**](docs/Api/ServerApi.md#changepassword) | **POST** /change-password | Change password
+*ServerApi* | [**getServerInfo**](docs/Api/ServerApi.md#getserverinfo) | **GET** /server | Server information
+*TasksApi* | [**createTask**](docs/Api/TasksApi.md#createtask) | **POST** /tasks | Create task
+*TasksApi* | [**deleteTasks**](docs/Api/TasksApi.md#deletetasks) | **DELETE** /tasks | Delete tasks
+*TasksApi* | [**getTaskResult**](docs/Api/TasksApi.md#gettaskresult) | **GET** /tasks/result | Task result
+*TasksApi* | [**getTasksInfo**](docs/Api/TasksApi.md#gettasksinfo) | **GET** /tasks | Tasks information
 
 
 ## Documentation For Models
 
- - [AsyncTaskResponse](docs\Model/AsyncTaskResponse.md)
- - [AuthenticationError](docs\Model/AuthenticationError.md)
- - [AuthenticationErrorError](docs\Model/AuthenticationErrorError.md)
- - [ChangePasswordError](docs\Model/ChangePasswordError.md)
- - [ChangePasswordErrorError](docs\Model/ChangePasswordErrorError.md)
- - [ChangePasswordRequest](docs\Model/ChangePasswordRequest.md)
- - [DeleteTasksError](docs\Model/DeleteTasksError.md)
- - [DeleteTasksSuccess](docs\Model/DeleteTasksSuccess.md)
- - [Document](docs\Model/Document.md)
- - [Documents](docs\Model/Documents.md)
- - [EntitiesResponse](docs\Model/EntitiesResponse.md)
- - [EntitiesResponseDocuments](docs\Model/EntitiesResponseDocuments.md)
- - [EntitiesResponseEntities](docs\Model/EntitiesResponseEntities.md)
- - [EntitiesResponsePositions](docs\Model/EntitiesResponsePositions.md)
- - [FactsResponse](docs\Model/FactsResponse.md)
- - [FactsResponseDocuments](docs\Model/FactsResponseDocuments.md)
- - [FactsResponseFacts](docs\Model/FactsResponseFacts.md)
- - [FactsResponsePositions](docs\Model/FactsResponsePositions.md)
- - [GetTaskResultError](docs\Model/GetTaskResultError.md)
- - [GetTaskResultSuccess](docs\Model/GetTaskResultSuccess.md)
- - [InternalServerError](docs\Model/InternalServerError.md)
- - [InternalServerErrorError](docs\Model/InternalServerErrorError.md)
- - [InvalidRequestParamsError](docs\Model/InvalidRequestParamsError.md)
- - [InvalidRequestParamsErrorError](docs\Model/InvalidRequestParamsErrorError.md)
- - [KeywordsResponse](docs\Model/KeywordsResponse.md)
- - [KeywordsResponseDocuments](docs\Model/KeywordsResponseDocuments.md)
- - [KeywordsResponseKeywords](docs\Model/KeywordsResponseKeywords.md)
- - [KeywordsResponsePositions](docs\Model/KeywordsResponsePositions.md)
- - [LanguagesResponse](docs\Model/LanguagesResponse.md)
- - [LanguagesResponseDocuments](docs\Model/LanguagesResponseDocuments.md)
- - [NotEnoughResourcesError](docs\Model/NotEnoughResourcesError.md)
- - [NotEnoughResourcesErrorError](docs\Model/NotEnoughResourcesErrorError.md)
- - [PerOperationLimitConstantResponse](docs\Model/PerOperationLimitConstantResponse.md)
- - [PerOperationLimitPeriodic1Response](docs\Model/PerOperationLimitPeriodic1Response.md)
- - [PerOperationLimitPeriodic2Response](docs\Model/PerOperationLimitPeriodic2Response.md)
- - [PerOperationLimitResponse](docs\Model/PerOperationLimitResponse.md)
- - [SentimentsResponse](docs\Model/SentimentsResponse.md)
- - [SentimentsResponseAttributes](docs\Model/SentimentsResponseAttributes.md)
- - [SentimentsResponseDocuments](docs\Model/SentimentsResponseDocuments.md)
- - [SentimentsResponsePositions](docs\Model/SentimentsResponsePositions.md)
- - [SentimentsResponseSentiments](docs\Model/SentimentsResponseSentiments.md)
- - [ServerInfo](docs\Model/ServerInfo.md)
- - [SyncTaskResponse](docs\Model/SyncTaskResponse.md)
- - [TaskInfo](docs\Model/TaskInfo.md)
- - [TaskInfoTasks](docs\Model/TaskInfoTasks.md)
- - [TokensResponse](docs\Model/TokensResponse.md)
- - [TokensResponseDocuments](docs\Model/TokensResponseDocuments.md)
- - [TokensResponsePosition](docs\Model/TokensResponsePosition.md)
- - [TokensResponseSentences](docs\Model/TokensResponseSentences.md)
- - [TokensResponseTokens](docs\Model/TokensResponseTokens.md)
- - [TotalLimitConstantResponse](docs\Model/TotalLimitConstantResponse.md)
- - [TotalLimitPeriodic1Response](docs\Model/TotalLimitPeriodic1Response.md)
- - [TotalLimitPeriodic2Response](docs\Model/TotalLimitPeriodic2Response.md)
- - [TotalLimitResponse](docs\Model/TotalLimitResponse.md)
+ - [AsyncTaskResponse](docs/Model/AsyncTaskResponse.md)
+ - [AuthenticationError](docs/Model/AuthenticationError.md)
+ - [AuthenticationErrorError](docs/Model/AuthenticationErrorError.md)
+ - [ChangePasswordError](docs/Model/ChangePasswordError.md)
+ - [ChangePasswordErrorError](docs/Model/ChangePasswordErrorError.md)
+ - [ChangePasswordRequest](docs/Model/ChangePasswordRequest.md)
+ - [DeleteTasksError](docs/Model/DeleteTasksError.md)
+ - [DeleteTasksSuccess](docs/Model/DeleteTasksSuccess.md)
+ - [Document](docs/Model/Document.md)
+ - [Documents](docs/Model/Documents.md)
+ - [EntitiesResponse](docs/Model/EntitiesResponse.md)
+ - [EntitiesResponseDocuments](docs/Model/EntitiesResponseDocuments.md)
+ - [EntitiesResponseEntities](docs/Model/EntitiesResponseEntities.md)
+ - [EntitiesResponsePositions](docs/Model/EntitiesResponsePositions.md)
+ - [FactsResponse](docs/Model/FactsResponse.md)
+ - [FactsResponseDocuments](docs/Model/FactsResponseDocuments.md)
+ - [FactsResponseFacts](docs/Model/FactsResponseFacts.md)
+ - [FactsResponsePositions](docs/Model/FactsResponsePositions.md)
+ - [GetTaskResultError](docs/Model/GetTaskResultError.md)
+ - [GetTaskResultSuccess](docs/Model/GetTaskResultSuccess.md)
+ - [InternalServerError](docs/Model/InternalServerError.md)
+ - [InternalServerErrorError](docs/Model/InternalServerErrorError.md)
+ - [InvalidRequestParamsError](docs/Model/InvalidRequestParamsError.md)
+ - [InvalidRequestParamsErrorError](docs/Model/InvalidRequestParamsErrorError.md)
+ - [KeywordsResponse](docs/Model/KeywordsResponse.md)
+ - [KeywordsResponseDocuments](docs/Model/KeywordsResponseDocuments.md)
+ - [KeywordsResponseKeywords](docs/Model/KeywordsResponseKeywords.md)
+ - [KeywordsResponsePositions](docs/Model/KeywordsResponsePositions.md)
+ - [LanguagesResponse](docs/Model/LanguagesResponse.md)
+ - [LanguagesResponseDocuments](docs/Model/LanguagesResponseDocuments.md)
+ - [NotEnoughResourcesError](docs/Model/NotEnoughResourcesError.md)
+ - [NotEnoughResourcesErrorError](docs/Model/NotEnoughResourcesErrorError.md)
+ - [PerOperationLimitConstantResponse](docs/Model/PerOperationLimitConstantResponse.md)
+ - [PerOperationLimitPeriodic1Response](docs/Model/PerOperationLimitPeriodic1Response.md)
+ - [PerOperationLimitPeriodic2Response](docs/Model/PerOperationLimitPeriodic2Response.md)
+ - [PerOperationLimitResponse](docs/Model/PerOperationLimitResponse.md)
+ - [SentimentsResponse](docs/Model/SentimentsResponse.md)
+ - [SentimentsResponseAttributes](docs/Model/SentimentsResponseAttributes.md)
+ - [SentimentsResponseDocuments](docs/Model/SentimentsResponseDocuments.md)
+ - [SentimentsResponsePositions](docs/Model/SentimentsResponsePositions.md)
+ - [SentimentsResponseSentiments](docs/Model/SentimentsResponseSentiments.md)
+ - [ServerInfo](docs/Model/ServerInfo.md)
+ - [SyncTaskResponse](docs/Model/SyncTaskResponse.md)
+ - [TaskInfo](docs/Model/TaskInfo.md)
+ - [TaskInfoTasks](docs/Model/TaskInfoTasks.md)
+ - [TokensResponse](docs/Model/TokensResponse.md)
+ - [TokensResponseDocuments](docs/Model/TokensResponseDocuments.md)
+ - [TokensResponsePosition](docs/Model/TokensResponsePosition.md)
+ - [TokensResponseSentences](docs/Model/TokensResponseSentences.md)
+ - [TokensResponseTokens](docs/Model/TokensResponseTokens.md)
+ - [TotalLimitConstantResponse](docs/Model/TotalLimitConstantResponse.md)
+ - [TotalLimitPeriodic1Response](docs/Model/TotalLimitPeriodic1Response.md)
+ - [TotalLimitPeriodic2Response](docs/Model/TotalLimitPeriodic2Response.md)
+ - [TotalLimitResponse](docs/Model/TotalLimitResponse.md)
 
 
 ## Documentation For Authorization
